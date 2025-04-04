@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+
+::selection{
+    background: #fff;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #2a89c0;
+}
+
+.inputBox{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 20px;
+    border-radius: 1rem;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.h2{
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.passwordBox{
+    padding: 0 10px;
+}
+
+input{
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 17px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.buttons{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    text-transform: capitalize;
+    padding: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+button:first-child{
+    background: #2a89c0;
+    width: 70%;
+    color: #fff;
+    border-radius: 5px;
+}
+
+button:last-child{
+    background: #fff;
+    width: 25%;
+    color: #2a89c0;
+    border-radius: 5px;
+}
+
